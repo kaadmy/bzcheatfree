@@ -3,6 +3,12 @@
 
 By _KaadmY_
 
+## Usage
+
+1. Install (PyGame)[http://www.pygame.org/download.shtml]
+
+2. Run the included Python script, _bzcheatfree_
+
 ## License
 
 This entire package is under the GNU LGPL, version 2.1 or later
