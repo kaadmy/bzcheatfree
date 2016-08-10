@@ -5,7 +5,7 @@ By _KaadmY_
 
 ## Usage
 
-1. Install (PyGame)[http://www.pygame.org/download.shtml]
+1. Install [PyGame](http://www.pygame.org/download.shtml)
 
 2. Run the included Python script, _bzcheatfree_
 
