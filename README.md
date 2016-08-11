@@ -37,4 +37,6 @@ This entire package is under the GNU LGPL, version 2.1 or later
 
 ## Changelog
 
+- Add a 30 fps framerate cap
+
 - Remove sounds, because sounds could be made louder to give you an edge

@@ -8,7 +8,11 @@ try:
     display = pygame.display.set_mode((1024, 600), pygame.RESIZABLE)
     pygame.display.set_caption("BZCheatFree")
 
+    clock = pygame.time.Clock()
+
     while True:
+        clock.tick(30)
+
         for e in pygame.event.get():
             if e.type == pygame.QUIT:
                 quit(0)
