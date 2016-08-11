@@ -8,9 +8,6 @@ try:
     display = pygame.display.set_mode((1024, 600), pygame.RESIZABLE)
     pygame.display.set_caption("BZCheatFree")
 
-    grabsound = pygame.mixer.Sound("grabflag.wav")
-    dropsound = pygame.mixer.Sound("dropflag.wav")
-
     while True:
         for e in pygame.event.get():
             if e.type == pygame.QUIT:
@@ -19,11 +16,6 @@ try:
                 display = pygame.display.set_mode((e.size[0], e.size[1]), pygame.RESIZABLE)
                 surf = pygame.display.get_surface()
                 surf.fill((0, 0, 0)) # black. no more visibility cheats, yay!
-            elif e.type == pygame.KEYDOWN:
-                if e.key == pygame.K_RETURN:
-                    grabsound.play()
-                elif e.key == pygame.K_ESCAPE:
-                    dropsound.play()
         
 finally:
     pygame.quit()

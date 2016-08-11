@@ -35,3 +35,6 @@ This entire package is under the GNU LGPL, version 2.1 or later
 
 - My boredom, for telling me to write this credits text
 
+## Changelog
+
+- Remove sounds, because sounds could be made louder to give you an edge
